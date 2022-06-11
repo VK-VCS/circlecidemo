@@ -15,7 +15,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
-    return "Flask app is running and I am changing something."
+    return "Flask app is running and I am changing something with 2nd commit "
 
 port = int(os.getenv("PORT", 5001))
 
